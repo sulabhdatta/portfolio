@@ -1,17 +1,28 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <title>Sulabh datta portfolio</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway"
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <style>
 body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 .w3-third img{margin-bottom: -6px; opacity: 0.8; cursor: pointer}
 .w3-third img:hover{opacity: 1}
+html{
+    scroll-bheavior:smooth;
+}
+#mainimg{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
 </style>
 <body class="w3-light-grey w3-content" style="max-width:1600px">
 
@@ -26,7 +37,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
 <!-- Top menu on small screens -->
 <header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
-  <span class="w3-left w3-padding">Sulabh Datta</span>
+  <span class="w3-left w3-padding">Sulabh Datta </span>
   <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
 </header>
 
@@ -81,12 +92,12 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   <!-- About section -->
   <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="about">
     <h4><b>About Me</b></h4>
-    <img src="images/img10.jpg" alt="Me" class="w3-image w3-padding-32" width="250" height="250">
+    <img src="images/img10.jpg" alt="Me" class="w3-image w3-padding-5" width="250" height="250" id="mainimg">
     <div class="w3-content w3-justify" style="max-width:600px">
       <h4>Sulabh Datta</h4>
-      <p>Some text about me. I love taking photos of Nature. I am enthusiastic about web developing.I like to work as Freelancer. 
+      <p>Some text about me. I love taking photos of Nature. I am entheusatic about web developing.I like to work as Freelancer. 
       </p>
-      <p>mail:sulabhdatta1007@gmail.com</p>
+      <p> <a href="https://mail.google.com/mail/u/0/?tab=rm#inbox" style="text-decoration:none"> mail - sulabhdatta1007@gmail.com </a> </p>
       <p>Mobile number - 8800474363</p>
       <hr class="w3-opacity">
       <h4 class="w3-padding-16">Technical Skills</h4>
@@ -143,31 +154,31 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     <div class="w3-content" style="max-width:600px">
       <h4 class="w3-center"><b>Contact Me</b></h4>
       <p>Do you want me to photograph you? Fill out the form and fill me in with the details :) I love meeting new people!</p>
-      <form action="/action_page.php" target="_blank">
+      <form>
         <div class="w3-section">
           <label>Name</label>
-          <input class="w3-input w3-border" type="text" name="Name" required>
+          <input class="w3-input w3-border" type="text" name="Name">
         </div>
         <div class="w3-section">
           <label>Email</label>
-          <input class="w3-input w3-border" type="text" name="Email" required>
+          <input class="w3-input w3-border" type="text" name="Email">
         </div>
         <div class="w3-section">
           <label>Message</label>
-          <input class="w3-input w3-border" type="text" name="Message" required>
+          <input class="w3-input w3-border" type="text" name="Message">
         </div>
-        <button type="submit" class="w3-button w3-block w3-black w3-margin-bottom">Send Message</button>
+        <button type="submit" class="w3-button w3-block w3-black w3-margin-bottom" id="submit">Send Message</button>
       </form>
     </div>
   </div>
-
+  
   <!-- Footer -->
   <footer class="w3-container w3-padding-32 w3-grey">  
     <div class="w3-row-padding">
       <div class="w3-third">
         <h3>Quick Contact</h3>
         <p> Mobile number - 8076278292 </p>
-        <p> Gmail - sddatta12345@gmail.com  </p>
+        <p> <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl" style="text-decoration:none"> Gmail - sddatta12345@gmail.com </a> </p>
       </div>
     
       <div class="w3-third">
@@ -175,12 +186,12 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
         <ul class="w3-ul">
           <li class="w3-padding-16 w3-hover-black">
            
-              <i class="fa fa-facebook-official"></i>      <span class="w3-large"> <a href="https://www.facebook.com/sulabh.datta.71/" style="text-decoration:none"> FACEBOOK </a> </span><br>
+              <i class="fa fa-facebook-official"></i>      <span class="w3-large"> <a href="" style="text-decoration:none"> FACEBOOK </a> </span><br>
            
           </li>
           <li class="w3-padding-16 w3-hover-black">
-              <i class="fa fa-linkedin"></i>  
-              <span class="w3-large"> <a href="https://www.linkedin.com/in/sulabh-datta-4a8158199" style="text-decoration:none"> Linkedin </a> </span><br>
+              <i class="fa fa-instagram"></i>  
+              <span class="w3-large"> <a href="" style="text-decoration:none"> Instagram </a> </span><br>
           </li> 
         </ul>
       </div>
@@ -202,7 +213,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 <!-- End page content -->
 </div>
 
-<script>
+<script type="text/javascript">
 // Script to open and close sidebar
 function w3_open() {
   document.getElementById("mySidebar").style.display = "block";
@@ -222,9 +233,15 @@ function onClick(element) {
   captionText.innerHTML = element.alt;
 }
 
+$("#submit").click(function(){
+   alert("Work in progress"); 
+});
+
 </script>
 
 
 </body>
 </html>
+
+
 
