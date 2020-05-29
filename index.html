@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 <title>Sulabh datta portfolio</title>
@@ -22,13 +21,30 @@ html{
 -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
-      }
+}
+#name{
+    animation-name:color;
+    animation-delay:2s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation-timing-function:linear;
+    animation-duration:1s;
+}
+@keyframes color{
+    0%{
+       color:red; 
+    }
+   
+    100%{
+        color:white;
+    }
+}
 </style>
 <body class="w3-light-grey w3-content" style="max-width:1600px">
 
 <!-- Sidebar/menu -->
 <nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
-  <h3 class="w3-padding-64 w3-center"><b>SULABH<br>DATTA</b></h3>
+  <h3 class="w3-padding-64 w3-center"><b>SULABH DATTA</b></h3>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
   <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">PORTFOLIO</a> 
   <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT ME</a> 
@@ -94,7 +110,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     <h4><b>About Me</b></h4>
     <img src="images/img10.jpg" alt="Me" class="w3-image w3-padding-5" width="250" height="250" id="mainimg">
     <div class="w3-content w3-justify" style="max-width:600px">
-      <h4>Sulabh Datta</h4>
+      <h4 id="name">Sulabh Datta</h4>
       <p>Some text about me. I love taking photos of Nature. I am entheusatic about web developing.I like to work as Freelancer. 
       </p>
       <p> <a href="https://mail.google.com/mail/u/0/?tab=rm#inbox" style="text-decoration:none"> mail - sulabhdatta1007@gmail.com </a> </p>
